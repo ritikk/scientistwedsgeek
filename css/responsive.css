@@ -1,0 +1,96 @@
+
+/* --- Responsive Stylesheet --- */
+
+@media (max-width: 479px) {
+
+	.countdown-mobile {display: inline-block !important;}
+	.countdown {display: none !important;}
+
+	.names-compact {font-size: 34px !important;}
+
+	.names {font-size: 50px;}
+	.names span {font-size: 50px;}
+
+	#buttons .m-02 {width: 100% !important;}
+
+	.couple img {width: 85%;}
+}
+
+@media (max-width: 639px) {
+
+	.names {font-size: 52px;}
+	.names-compact {font-size: 54px;}
+	.names-compact .fa {display: inline-block;}
+	.names-compact img {display: none;}
+	.name-1 {padding-top: 2px;}
+	.name-2 {padding-top: 2px;}
+
+	#restaurant img {width: 220px !important;}
+
+	#ceremony .remove-2 {display: none !important;}
+	#ceremony .m-04 {width: 100% !important;}
+
+	#accomodation img {width: 200px;}
+
+	.main-images {width: 100% !important;}
+
+	.images {display: none;}
+
+	#gifts .m-03 {width: 50%;}
+	#gifts .m-06 {width: 50% !important;}
+
+	.m-12 {width: 100%;}
+	.m-11 {width: 100%;}
+	.m-10 {width: 100%;}
+	.m-09 {width: 100%;}
+	.m-08 {width: 100%;}
+	.m-07 {width: 100%;}
+	.m-06 {width: 100%;}
+	.m-05 {width: 100%;}
+	.m-04 {width: 100%;}
+	.m-03 {width: 100%;}
+	.m-02 {width: 100%;}
+	.m-01 {width: 100%;}
+
+	.names-compact .m-04 {width: 33.332%;}
+
+	#rsvp .text-box {width: 80% !important;}
+	#rsvp .text-box-2 {width: 80% !important;}
+
+}
+
+@media (max-width: 939px) {
+
+	h1 { font-size: 40px; }
+
+	#ceremony .remove {display: none !important;}
+	#ceremony .m-06 {width: 100% !important;}
+
+	nav {position: relative !important;}
+
+	#buttons .m-02 {width: 33.332%;}
+
+	.names, .names-compact {margin-top: 20px;}
+
+	.main-nav {display: none;}
+	.mobile-nav {display: block !important;}
+
+	.main-images {width: 630px;}
+
+	.images {width: 630px !important;}
+
+	.image-02 {display: none;}
+	.image-01 {left: 0;}
+	.image-05 {left: 450px;}
+	.image-04 {display: none;}
+
+}
+
+@media (max-width: 1049px) {
+
+	#restaurant img {width: 80%;}
+
+	#party .m-06 {width: 100%;}
+	#party .remove {display: none;}
+
+}
